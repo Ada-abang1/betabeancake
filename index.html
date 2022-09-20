@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>project training</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			Awesome Project Inc.
+		</h1>
+		<h4>
+			Homemade Beancake with a taste of home kitchen.
+		</h4>
+	</header>
+
+<section class="intro">
+	<h2 class="subtitle">
+		WELCOME!
+	</h2>
+	<p class="desc">
+		beancake made with the best ingredients that serves as a nutritious meal for breakfast leaving you satisfied and wanting more. located in the heart of karu a location you cant miss. try it out today! 
+
+	</p>
+</section>
+<section class="container">
+	<h2>
+		SERVICES
+	</h2>
+	<article class="card">
+		<div class="icons">
+			&#x1F60e;
+		</div>
+		<h3>Eucharia Anyin</h3>
+		<p>jnr.chef & jeweler - Creates awesome Beancake  and sells jewelries. </p>
+		<button class="button"> Contact </button>
+	</article>
+
+	<article class="card">
+		<div class="icons">
+			&#10084;
+		</div>
+		<h3>Eucharia Anyin</h3>
+		<p>jnr.chef & jeweler - Creates awesome Beancake  and sells jewelries. </p>
+		<button class="button"> Contact </button>
+	</article>
+
+	<article class="card">
+		<div class="icons">
+			&#9749;
+		</div>
+		<h3>Eucharia Anyin</h3>
+		<p>jnr.chef & jeweler - Creates awesome Beancake  and sells jewelries. </p>
+		<button class="button"> Contact </button>
+	</article>
+
+	<article class="card">
+		<div class="icons">
+			&#9748;
+		</div>
+		<h3>Eucharia Anyin</h3>
+		<p>jnr.chef & jeweler - Creates awesome Beancake  and sells jewelries. </p>
+		<button class="button"> Contact </button>
+	</article>
+	
+</section>
+
+<br>
+
+<section class="about">
+	
+	<h2>	ABOUT US	</h2>
+
+	<p class="desc">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laudantium veniam quod, enim corrupti iure similique optio debitis tenetur eos, saepe ut consequuntur vitae error rem minima nam dignissimos aperiam.
+	</p>
+
+</section>
+
+<br>
+
+<section class="form">
+
+	<h2> MY ORDER FORM </h2>
+	<form id="my-form" action="">
+		<table>
+		<tr>
+			<td>Name:</td>
+			<td><input type="text" size="28" name="my-name" ></td>
+		</tr>
+		<tr>
+			<td>Address:</td>
+			<td><input type="text" size="28" name="my-address" ></td>
+		</tr>
+		<tr>
+			<td> Drink:</td>
+				<td>
+					<select name="my-drink">
+						<option>milk</option>
+						<option>zobo</option>
+						<option>coca-cola</option>
+					</select>
+
+					<small>Quantity:</small>
+					<input type="number" name="my-qty" value="1" min="1" max="10">
+					
+				</td>
+		</tr>
+		
+
+		<tr>
+			<td colspan="2">
+				<input class="button" type="button" value="Process Order" onclick="placeOrder();" name="">
+				<input class="button" type="reset" value="Clear" onclick="document.getElementById('my-order').style.display = 'none'";>
+			</td>
+		</tr>	
+	</table>
+	<br>
+	<div id="my-order"></div>
+	</form>
+
+</section>
+
+<section >
+	<div class="footer">
+		<h3 class="title">Thanks for Visiting.</h3>
+		<div class="container">
+			<article class="card">
+				<h3>Get in Touch.</h3>
+				<p>the best place to buy beancake in all of karu.</p>
+			</article>
+			<article class="card">
+				<h3>Contact Us.</h3>
+				we would love to hear from you. 
+				<br>Call us. <br>
+				Mobile: 08101234567
+			</article>
+		</div>
+		<!--	<div class="circle">F</div>
+		<div class="circle">T</div>
+		<div class="circle">I</div>  -->
+		
+		<br>
+		&copy;2009 Awesome Project Inc.
+	</div>
+
+</section>
+<script src="scripts.js">
+
+</script>
+</body>
+</html>
